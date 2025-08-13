@@ -50,7 +50,7 @@ jobs:
       - name: build docker
         run: bash ci/build-docker.sh
       - name: push docker
-        run: bash ci/push-dokcer.sh
+        run: bash ci/push-docker.sh
           
       
     
